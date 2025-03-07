@@ -1,5 +1,12 @@
 # Hierarchical Diffusion Policy
 
+Hierarchical Diffusion Policy: Manipulation Trajectory Generation Via Contact Guidance
+
+Dexin Wang, Chunsheng Liu, Faliang Chang, Yichen Xu
+
+This paper has been accepted by **IEEE Transactions on Robotics (TRO)**.
+
+
 [[Paper]](https://arxiv.org/pdf/2411.12982)
 [[Data]](https://drive.google.com/drive/folders/1dRdOB7WrvjQeSrbILsmdVBNb_4kizEj-?usp=drive_link)
 [[Video]](https://youtu.be/ce1fg3p2MhI)
@@ -74,4 +81,18 @@ Run the evaluation script:
 Run the following code to augment the Robomimic dataset published by Diffusion Policy with object point clouds. The augmented dataset with object point clouds will be saved in the same directory. For example, running the code below will generate a new dataset named `low_dim_abs_pcd.hdf5` in the path `data/robomimic/datasets/square/mh/`.
 ```console
 (robodiff)[hierarchical_diffusion_policy]$ python dataset/add_pcd_to_robomimic_dataset.py 'data/robomimic/datasets/square/mh/low_dim_abs.hdf5'
+```
+
+## Cite
+
+```
+@ARTICLE{10912754,
+  author={Wang, Dexin and Liu, Chunsheng and Chang, Faliang and Xu, Yichen},
+  journal={IEEE Transactions on Robotics}, 
+  title={Hierarchical Diffusion Policy: Manipulation Trajectory Generation Via Contact Guidance}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-20},
+  doi={10.1109/TRO.2025.3547272}}
 ```
